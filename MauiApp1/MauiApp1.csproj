@@ -74,41 +74,40 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiImage Include="Resources\Images\comedia\ate-que-a-sorte-nos-separe.jpg" />
-	  <MauiImage Include="Resources\Images\comedia\bebernaocase.jpg" />
-	  <MauiImage Include="Resources\Images\comedia\bingo.jpg" />
-	  <MauiImage Include="Resources\Images\comedia\click.jpg" />
-	  <MauiImage Include="Resources\Images\comedia\comosefosse.jpg" />
-	  <MauiImage Include="Resources\Images\comedia\ocandidatohonesto.jpg" />
-	  <MauiImage Include="Resources\Images\comedia\tachovendohamburguer.jpg" />
-	  <MauiImage Include="Resources\Images\comedia\tudobemnonatalquevem.jpg" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="Resources\Images\acao\" />
-	  <Folder Include="Resources\Images\animacao\" />
-	  <Folder Include="Resources\Images\aventura\" />
-	  <Folder Include="Resources\Images\documentario\" />
-	  <Folder Include="Resources\Images\drama\" />
-	  <Folder Include="Resources\Images\ficcao\" />
-	  <Folder Include="Resources\Images\guerra\" />
-	  <Folder Include="Resources\Images\infantil\" />
-	  <Folder Include="Resources\Images\nacional\" />
-	  <Folder Include="Resources\Images\suspense\" />
-	  <Folder Include="Resources\Images\romance\" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Compile Update="categorias\acao.xaml.cs">
-	    <DependentUpon>acao.xaml</DependentUpon>
-	  </Compile>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <MauiXaml Update="categorias\acao.xaml">
+	  <MauiXaml Update="categorias\animacao.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="categorias\animacao.xaml">
+	  <MauiXaml Update="categorias\Aventura.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="categorias\comedia.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="categorias\documentario.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="categorias\drama.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="categorias\ficcao.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="categorias\guerra.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="categorias\infantil.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="categorias\nacionais.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="categorias\romance.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="categorias\suspense.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="categorias\terror.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
